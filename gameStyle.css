@@ -12,6 +12,20 @@ body {
     background-image: -o-linear-gradient(top, #4481eb 0%, #04bedd 100%);
     background-image: linear-gradient(to bottom, #4481eb 0%, #04bedd 100%);
 }
+footer{
+  color: white;
+  text-align:center;
+
+
+}
+#quit
+{
+margin :50px;
+}
+#quit:hover
+{
+  background-color:#04bedd;
+}
 
 p {
     font-size: 40px;
@@ -68,7 +82,7 @@ button {
     -webkit-backdrop-filter: blur(8px);
             backdrop-filter: blur(8px);
     z-index:2;
-    
+
 }
 #iol {
     text-align: center;
