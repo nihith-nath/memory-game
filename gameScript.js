@@ -26,14 +26,14 @@ window.onload = function() {
 }
  function restart()
 {
-q =false;
-  $("#ol").fadeIn(750);
+ window.location.reload();
+
 }
-var q=false;
+
 //Starting the game
 function start(r,l) {
     //Timer and moves
-    quit = true;
+
 
     min=0, sec=0, moves=0;
     $("#time").html("Time: 00:00");
@@ -79,10 +79,7 @@ function start(r,l) {
     //Hiding instructions screen
     $("#ol").fadeOut(500);
 }
-while(q)
-{
 
-}
 //Function for flipping blocks
 function change(x) {
   //Variables
